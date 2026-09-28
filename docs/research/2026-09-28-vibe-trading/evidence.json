@@ -1,0 +1,495 @@
+{
+  "repository": "HKUDS/Vibe-Trading",
+  "commit": "47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a",
+  "research_date": "2026-09-28",
+  "method": "Static primary-source research. Reading scope is based on analyst records; source blob hashes mechanically matched the pinned Git tree. Complete means file read, not every function formally verified. No product installation, tests, accounts, trades, or performance experiments.",
+  "sources": [
+    {
+      "path": "Dockerfile",
+      "blob_sha": "bf04cea7933e3641d87afce148b63c0a4f3c24d5",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/Dockerfile",
+      "total_lines": 118,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-118"
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "blob_sha": "992af603c26af7c92754e06fa14d8d8860799d7d",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/README.md",
+      "total_lines": 2254,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "283-395",
+          "628-875",
+          "1515-1692",
+          "1732-1959",
+          "396-627",
+          "1693-1960",
+          "2233-2239",
+          "82-88",
+          "695-726",
+          "772-790",
+          "1390-1429",
+          "2070-2075",
+          "283-1637",
+          "2066-2094"
+        ]
+      }
+    },
+    {
+      "path": "SECURITY.md",
+      "blob_sha": "f28cee83e25336366290ee00db9b00e38516a08b",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/SECURITY.md",
+      "total_lines": 47,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-47"
+        ]
+      }
+    },
+    {
+      "path": "agent/api_server.py",
+      "blob_sha": "304b4164ad2902d5d25a681cbf8a5635578a137e",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/api_server.py",
+      "total_lines": 398,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-398"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/context.py",
+      "blob_sha": "c328b5449074020efde726f1b439ccf05392c060",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/context.py",
+      "total_lines": 471,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-471"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/grounding/ledger.py",
+      "blob_sha": "d4e8a09c87d5725a63c0457a1866070f10065a26",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/grounding/ledger.py",
+      "total_lines": 369,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-369"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/grounding/policies.py",
+      "blob_sha": "2eae3130c4dc7a56a0625334ac089560846360e5",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/grounding/policies.py",
+      "total_lines": 1824,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "415-605"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/grounding/release.py",
+      "blob_sha": "a24957473e3933f964138b064c124eef3a553a93",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/grounding/release.py",
+      "total_lines": 745,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1-63",
+          "243-358",
+          "443-563"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/loop.py",
+      "blob_sha": "78fb38020eff843c2e4afd269e74eb5ce652d6e1",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/loop.py",
+      "total_lines": 3543,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1078-1430",
+          "1835-2045",
+          "2401-2657",
+          "2714-2858",
+          "3203-3512"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/memory.py",
+      "blob_sha": "378a2dd33f9fd9626a180b13a31d15e83edb6ee6",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/memory.py",
+      "total_lines": 53,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-53"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/skills.py",
+      "blob_sha": "359ba3a952c54b846ede58eb807d617b60816975",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/skills.py",
+      "total_lines": 386,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-386"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/agent/tools.py",
+      "blob_sha": "1bb8ae215d7589650b1e4426d1e202bd8b6df4e1",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/agent/tools.py",
+      "total_lines": 169,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-169"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/core/runner.py",
+      "blob_sha": "8df5b3dfccf22cf9414346c14e459e6a1bd4071c",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/core/runner.py",
+      "total_lines": 709,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-709"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/live/enforcement.py",
+      "blob_sha": "5b6a2d4fa56be1fbe1b567d8b9ec3996a5b111d2",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/live/enforcement.py",
+      "total_lines": 800,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1-43",
+          "213-244",
+          "458-622"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/live/mandate/commit.py",
+      "blob_sha": "88fdec9bd40c6cbbcca9cd10bd80c0abd717ef9f",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/live/mandate/commit.py",
+      "total_lines": 623,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1-30",
+          "167-206",
+          "265-347",
+          "400-541"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/live/mandate/model.py",
+      "blob_sha": "6c5984064b81a003bdc5b332c80b3be2cb088d47",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/live/mandate/model.py",
+      "total_lines": 148,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-148"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/live/sdk_order_gate.py",
+      "blob_sha": "b801e2bb3c4d421188a583a32c5043c2f5758e1c",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/live/sdk_order_gate.py",
+      "total_lines": 1116,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1-183",
+          "207-255",
+          "434-542",
+          "898-1020",
+          "1086-1095"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/memory/persistent.py",
+      "blob_sha": "c66a8836a829e2c694eb6bd1a1b4acabc18ea57d",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/memory/persistent.py",
+      "total_lines": 716,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-716"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/providers/copilot_auth.py",
+      "blob_sha": "efb66809f8f280a6ab0cb79e8c4e784902275d21",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/providers/copilot_auth.py",
+      "total_lines": 459,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-459"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/providers/llm.py",
+      "blob_sha": "0324821402e419b968bf50d61837248b9afedc12",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/providers/llm.py",
+      "total_lines": 1767,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1415-1419",
+          "1663-1669"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/session/service.py",
+      "blob_sha": "e80bc0fc1e45f6d4778a22487a06ecb30088a49d",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/session/service.py",
+      "total_lines": 752,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1-101",
+          "244-308",
+          "461-576"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/swarm/grounding.py",
+      "blob_sha": "ce49b6a75711bf914ba8684ec65abe8fa1f39fa1",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/swarm/grounding.py",
+      "total_lines": 290,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-290"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/swarm/models.py",
+      "blob_sha": "bb3d2446fbb07faa44516a658cf726faffdbff93",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/swarm/models.py",
+      "total_lines": 332,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-332"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/swarm/presets.py",
+      "blob_sha": "6ec21da33ca7d543af6feb8f7959049ab2c7c9b6",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/swarm/presets.py",
+      "total_lines": 353,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-353"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/swarm/presets/quant_strategy_desk.yaml",
+      "blob_sha": "15c6d9565b400da7c0564e5567ce08ef073cfa56",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/swarm/presets/quant_strategy_desk.yaml",
+      "total_lines": 189,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-189"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/swarm/runtime.py",
+      "blob_sha": "520d44e6be5672e296cd301efd939cfac1f8859b",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/swarm/runtime.py",
+      "total_lines": 1188,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-1188"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/swarm/worker.py",
+      "blob_sha": "909a31c5f69ee1acb641d5ae7668d0bbb20795ee",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/swarm/worker.py",
+      "total_lines": 1384,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-1384"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/tools/__init__.py",
+      "blob_sha": "ff06e2c20581d9e27d48c65f22c7825425cbc224",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/tools/__init__.py",
+      "total_lines": 423,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-423"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/tools/backtest_tool.py",
+      "blob_sha": "459c0a15ad657a736d237c9f084fcab6bb13d872",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/tools/backtest_tool.py",
+      "total_lines": 132,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-132"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/tools/mcp.py",
+      "blob_sha": "e39bc3f283ebfd179f0e24521da4c7af2c50786a",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/tools/mcp.py",
+      "total_lines": 1453,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "837-903",
+          "1004-1017"
+        ]
+      }
+    },
+    {
+      "path": "agent/src/trading/profiles.py",
+      "blob_sha": "0dcd3d57aa170f6ea0f8c06631699b1eb9cfee43",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/src/trading/profiles.py",
+      "total_lines": 123,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-123"
+        ]
+      }
+    },
+    {
+      "path": "agent/tests/test_backtest_runner_security.py",
+      "blob_sha": "a88479ebe28453fc114a803c1451265c56fd0c68",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/tests/test_backtest_runner_security.py",
+      "total_lines": 724,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1-66",
+          "97-179",
+          "362-429"
+        ]
+      }
+    },
+    {
+      "path": "agent/tests/test_mandate_commit_security.py",
+      "blob_sha": "2eac43c251843e623b5b64ac6df269182fadb8e6",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/tests/test_mandate_commit_security.py",
+      "total_lines": 181,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-181"
+        ]
+      }
+    },
+    {
+      "path": "agent/tests/test_sdk_order_gate.py",
+      "blob_sha": "40c98f7117e7a67b4af2ab7a099cba29af5d786d",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/agent/tests/test_sdk_order_gate.py",
+      "total_lines": 1009,
+      "reading_scope": {
+        "complete": false,
+        "ranges": [
+          "1-17",
+          "57-86",
+          "156-191",
+          "786-833",
+          "845-879",
+          "971-980"
+        ]
+      }
+    },
+    {
+      "path": "docker-compose.yml",
+      "blob_sha": "a44ac5816f2a87fddb21b0e72445806039007344",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/docker-compose.yml",
+      "total_lines": 89,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-89"
+        ]
+      }
+    },
+    {
+      "path": "frontend/package.json",
+      "blob_sha": "c54c6a41420e5e998b2cb7a9ed7803c88a05d0f6",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/frontend/package.json",
+      "total_lines": 57,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-57"
+        ]
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "blob_sha": "37d6d5edd7eaa81699a117c7ed0d51c95ba6f5a5",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading/blob/47a036d66daa7f86dc1561be4b3f59c6a1f6ec7a/pyproject.toml",
+      "total_lines": 314,
+      "reading_scope": {
+        "complete": true,
+        "ranges": [
+          "1-314"
+        ]
+      }
+    }
+  ],
+  "report": "report.zh-CN.md",
+  "review_record": "review.md",
+  "feishu_url": "https://feishu.cn/docx/IewndOxhAo0qE4xXQiucTwfmnKx",
+  "report_sha256": "b9d67fe41dce6f1f6c1adec2a4fa7eb03e8bc8447b60488099ef44837dfb404b"
+}
