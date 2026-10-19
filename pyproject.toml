@@ -67,7 +67,7 @@ dependencies = [
     # so discovery raises OAuthFlowError and the IBKR OAuth connection cannot be
     # established at all. The cap is on the real broker path, not on the test
     # that caught it — pulled in transitively through fastmcp.
-    "mcp<1.30",
+    "mcp<1.31",
     "ddgs>=6.0.0",
     "jinja2>=3.1.0",
     "matplotlib>=3.7.0",
