@@ -974,9 +974,9 @@ fastmcp==3.4.7 \
     --hash=sha256:43117aca886f5ee2f6a569bba91cef02b59c339aad04ba29950ff18d251c822a \
     --hash=sha256:e4e7698cb4af5bc667b1901685261fa2f3526dc73d243a461fca42500c8dbe56
     # via -r agent/requirements.txt
-fastmcp-slim==3.4.7 \
-    --hash=sha256:06b32a358320a7dc2b2ee040ba89ea55ddc20763dff2949f384f7974b13b5d8f \
-    --hash=sha256:6c931a0089705f3f2935428ef9b2bc74ad94140adc64aab84d116d103e694b3a
+fastmcp-slim==3.4.10 \
+    --hash=sha256:d80ae606ead8dfefa1f21b009929824210ea87eb4b422653a1be8dca61797ccd \
+    --hash=sha256:f388941db8bdf38999e6c9d2536c4cd59a6571908d851cee2d10ee59f4e53532
     # via fastmcp
 fonttools==4.63.0 \
     --hash=sha256:032038247a96c1690f9f31e377c389383c902531b085aa4e4dabd6f57f870e69 \
