@@ -934,9 +934,9 @@ fastapi==0.140.7 \
     --hash=sha256:09a640af2d29006345e1f28e4f031fa60f89b1a75d29f26070f3afa677d66cce \
     --hash=sha256:960bb9696d8fd19dff488aa4f67f276364542cfcce9f7e68a82fe49dce126626
     # via -r agent/requirements.txt
-fastmcp==3.4.5 \
-    --hash=sha256:5d3d438eb2917e63e6faf53e8cb8fe26d887ec3232f848093a4eecad7fa34861 \
-    --hash=sha256:a95f2bc876bef42e8b50f7872f24f3f2fe3b1d37408c734e8b9d9e03014b72d3
+fastmcp==3.4.10 \
+    --hash=sha256:68f422db0a7c6228142663f17d9f79a5a12a509e1408a8ac207b3e442e166e38 \
+    --hash=sha256:c6474855d6230cce4feb7084d654ba518578b25856c6ef26a2ff2d806ef68969
     # via -r agent/requirements.txt
 fastmcp-slim[client,server]==3.4.5 \
     --hash=sha256:5badc3bceee61f61297eeb9494f499325f3ce1cafabf4611b31f6c3e9d7dff59 \
